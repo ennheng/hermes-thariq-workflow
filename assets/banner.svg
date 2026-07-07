@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f0b429"/>
+      <stop offset="50%" style="stop-color:#e67e22"/>
+      <stop offset="100%" style="stop-color:#e74c3c"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f0b429"/>
+      <stop offset="100%" style="stop-color:#e67e22"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="280" fill="url(#bg)" rx="12"/>
+  <rect x="12" y="12" width="876" height="256" fill="none" stroke="url(#accent)" stroke-width="1.5" rx="10" opacity="0.4"/>
+  
+  <!-- Stars/dots decoration -->
+  <circle cx="70" cy="50" r="1.5" fill="#f0b429" opacity="0.6"/>
+  <circle cx="150" cy="80" r="1" fill="#e67e22" opacity="0.4"/>
+  <circle cx="820" cy="60" r="1.5" fill="#f0b429" opacity="0.5"/>
+  <circle cx="780" cy="180" r="1" fill="#e67e22" opacity="0.3"/>
+  <circle cx="100" cy="200" r="1" fill="#f0b429" opacity="0.4"/>
+  <circle cx="850" cy="130" r="1.5" fill="#f0b429" opacity="0.5"/>
+  
+  <!-- Main icon -->
+  <text x="450" y="95" text-anchor="middle" font-size="48" filter="url(#glow)">🧭</text>
+  
+  <!-- Title -->
+  <text x="450" y="155" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="bold" fill="url(#textGrad)">Thariq Workflow</text>
+  
+  <!-- Subtitle -->
+  <text x="450" y="200" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#8892b0">
+    7-Phase Agentic Coding Pipeline for Hermes
+  </text>
+  
+  <!-- Tagline -->
+  <text x="450" y="250" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#5a6a8a">
+    "The map is not the territory." — Find your unknowns before they find you.
+  </text>
+</svg>
