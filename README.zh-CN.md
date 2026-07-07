@@ -1,5 +1,8 @@
 <p align="center">
-  <img alt="Thariq 工作流" src="assets/banner-cn.png" width="900">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-cn.svg">
+    <img alt="Thariq 工作流" src="assets/banner-cn.svg" width="900">
+  </picture>
 </p>
 
 <p align="center">
