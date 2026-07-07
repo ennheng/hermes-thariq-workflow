@@ -49,11 +49,12 @@ Then say **"go Thariq mode"** in any Hermes session.
 
 ## 🧠 The Framework
 
-| Known Knowns | Known Unknowns |
-|---|---|
-| What you told the agent | What you know you haven't figured out |
-| **Unknown Knowns** 🚨 | **Unknown Unknowns** |
-| Obvious to you, never written down | Haven't considered at all |
+| | Quadrant | Meaning |
+|---|----------|---------|
+| ✅ | **Known Knowns** | What you told the agent |
+| 🔵 | **Known Unknowns** | What you know you haven't figured out |
+| 🚨 | **Unknown Knowns** | Obvious to you, never written down (most dangerous) |
+| 🔴 | **Unknown Unknowns** | Haven't considered at all |
 
 The entire pipeline converts ⬜ red cells into 🟩 green ones.
 
