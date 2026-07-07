@@ -25,13 +25,13 @@ A **Hermes skill** that encodes a 7-phase agentic coding workflow. When the mode
 
 | # | Phase | Trigger Phrase | What It Does |
 |---|-------|---------------|-------------|
-| 1 | **Blind Spot Pass** | **盲点扫描** | Find what you don't know you don't know |
-| 2 | **Brainstorm** | **给我几个方向** | Generate 4 wildly different approaches |
-| 3 | **Interview** | **采访我** | Agent asks YOU one question at a time |
-| 4 | **References** | **参考这个** | Anchor in real code/design examples |
-| 5 | **Plan** | **出实现计划** | Lead with decisions most likely to change |
-| 6 | **Implement** | **开始实现** | Build + track every deviation from plan |
-| 7 | **Deliver + Quiz** | **打包 + 考我** | Package for buy-in, then test yourself |
+| 1 | **Blind Spot Pass** | *blindspot scan* / *what am I missing* | Find what you don't know you don't know |
+| 2 | **Brainstorm** | *show me options* / *brainstorm this* | Generate 4 wildly different approaches |
+| 3 | **Interview** | *interview me* / *ask me questions* | Agent asks YOU one question at a time |
+| 4 | **References** | *reference this* / *like X but for Y* | Anchor in real code/design examples |
+| 5 | **Plan** | *plan this* / *implementation plan* | Lead with decisions most likely to change |
+| 6 | **Implement** | *build it* / *implement this* | Build + track every deviation from plan |
+| 7 | **Deliver + Quiz** | *package + quiz me* / *deliver this* | Package for buy-in, then test yourself |
 
 ## ⚡ Quick Start
 
@@ -39,7 +39,7 @@ A **Hermes skill** that encodes a 7-phase agentic coding workflow. When the mode
 git clone https://github.com/ennheng/hermes-thariq-workflow.git ~/.hermes/skills/thariq-workflow
 ```
 
-Then say **"启动 Thariq 模式"** in any Hermes session.
+Then say **"go Thariq mode"** in any Hermes session.
 
 ## 🎯 When to Use
 
